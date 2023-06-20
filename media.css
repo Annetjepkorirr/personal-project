@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    /* Set padding for the header */
+    header{
+        padding: 15px;
+    }
+    /* Set font-size for the links within the header */
+    header a{
+        font-size: 16px;
+    }
+    /* Set padding for the page logo */
+    #page-logo a{
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    main ul{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    main li{
+        flex-direction: column;
+    }
+    main li img{
+        width: 100%;
+        height: auto;
+    }
+}
